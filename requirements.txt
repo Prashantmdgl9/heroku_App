@@ -1,0 +1,2 @@
+bokeh==1.4.0
+streamlit==0.51.0
