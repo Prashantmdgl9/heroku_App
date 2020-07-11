@@ -12,7 +12,7 @@ def main():
     files = []
     for file in glob.glob("models/histories/*pkl"):
         files.append(file.rsplit('/')[2])
-    page = st.sidebar.selectbox("App Selections", ["Model Results", "WIP"])
+    page = st.sidebar.selectbox("App Selections", ["Model Results", "EDA])
     if page == "Model Results":
         st.header("Exploring various models")
         visualize_data(files)
